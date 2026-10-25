@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeRoute: AI-Based Safety-Aware Navigation System for Women</title>
+    <meta name="description" content="AI-powered safety-aware navigation system analyzing historical crime, lighting, and time-of-day risk patterns to recommend safest routes for women.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    
+    <!-- Application CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+        <div class="brand-section">
+            <div class="brand-logo">
+                <i class="fa-solid fa-shield-heart"></i>
+            </div>
+            <div class="brand-info">
+                <h1>SafeRoute <span class="badge-ai">AI-Powered</span></h1>
+                <p>Safety-Aware Navigation System for Women</p>
+            </div>
+        </div>
+
+        <div class="header-status-pill">
+            <span class="live-dot"></span>
+            <span id="liveClock">22:00 IST</span>
+            <span class="divider">|</span>
+            <span class="ai-status"><i class="fa-solid fa-brain"></i> Random Forest + K-Means Active</span>
+        </div>
+
+        <div class="header-actions">
+            <button id="btnAiInsights" class="btn-secondary" title="View AI & ML model architecture">
+                <i class="fa-solid fa-chart-line"></i> <span>AI Insights</span>
+            </button>
+            <button id="btnReportIncident" class="btn-secondary" title="Report safety concern or dark street">
+                <i class="fa-solid fa-triangle-exclamation"></i> <span>Report Incident</span>
+            </button>
+            <button id="btnEmergencySOS" class="btn-sos" title="Instant SOS Emergency Broadcast">
+                <i class="fa-solid fa-bell"></i> <span>EMERGENCY SOS</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Workspace: Split Sidebar & Interactive Map -->
+    <main class="main-container">
+        <!-- Sidebar Controls & Route Comparison -->
+        <aside class="sidebar" id="sidebar">
+            <!-- Quick Preset Demos -->
+            <div class="panel-section presets-container">
+                <div class="section-header">
+                    <h3><i class="fa-solid fa-bolt-lightning text-warning"></i> Quick Demo Scenarios</h3>
+                    <span class="sub-label">1-Click Evaluation</span>
+                </div>
+                <div class="preset-buttons-grid" id="presetsList">
+                    <!-- Dynamic Preset Buttons populated via JS -->
+                </div>
+            </div>
+
+            <!-- Route Planning Form -->
+            <div class="panel-section">
+                <div class="section-header">
+                    <h3><i class="fa-solid fa-route text-primary"></i> Route Planner</h3>
+                    <button class="btn-link" id="btnSwapPoints" title="Swap Start & Destination">
+                        <i class="fa-solid fa-arrow-down-up-across-line"></i>
+                    </button>
+                </div>
+
+                <div class="input-group">
+                    <label for="startInput"><i class="fa-solid fa-circle-dot text-success"></i> Starting Location</label>
+                    <div class="input-with-action">
+                        <input type="text" id="startInput" placeholder="Enter origin or select preset..." value="MG Road Metro Station">
+                        <button type="button" class="btn-locate" id="btnPickStartOnMap" title="Click on map to select Start">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                        </button>
+                    </div>
+                    <input type="hidden" id="startLat" value="12.9756">
+                    <input type="hidden" id="startLon" value="77.6066">
+                </div>
+
+                <div class="input-group">
+                    <label for="endInput"><i class="fa-solid fa-location-dot text-danger"></i> Destination</label>
+                    <div class="input-with-action">
+                        <input type="text" id="endInput" placeholder="Enter destination..." value="Indiranagar Tech Hub">
+                        <button type="button" class="btn-locate" id="btnPickEndOnMap" title="Click on map to select Destination">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                        </button>
+                    </div>
+                    <input type="hidden" id="endLat" value="12.9784">
+                    <input type="hidden" id="endLon" value="77.6408">
+                </div>
+
+                <!-- Travel Options -->
+                <div class="travel-options-row">
+                    <div class="option-field">
+                        <label for="travelTimeSelect"><i class="fa-solid fa-clock"></i> Travel Time</label>
+                        <select id="travelTimeSelect">
+                            <option value="12">Daytime (12:00 PM)</option>
+                            <option value="18">Dusk / Sunset (06:00 PM)</option>
+                            <option value="21">Night (09:00 PM)</option>
+                            <option value="23" selected>Late Night (11:00 PM)</option>
+                            <option value="2">Midnight (02:00 AM)</option>
+                        </select>
+                    </div>
+
+                    <div class="option-field">
+                        <label for="travelModeSelect"><i class="fa-solid fa-person-walking"></i> Mode</label>
+                        <select id="travelModeSelect">
+                            <option value="driving" selected>Driving / Cab</option>
+                            <option value="walking">Walking / Solo</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button id="btnFindRoutes" class="btn-primary-action">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> Compute AI Safe Routes
+                </button>
+            </div>
+
+            <!-- Route Comparison Results -->
+            <div class="panel-section results-section">
+                <div class="section-header">
+                    <h3><i class="fa-solid fa-scale-balanced text-accent"></i> Compared Routes</h3>
+                    <span class="sub-label" id="resultsCountBadge">3 Routes Analyzed</span>
+                </div>
+
+                <div id="routeLoadingIndicator" class="loading-state hidden">
+                    <div class="spinner"></div>
+                    <p>Evaluating historical crime density & lighting models...</p>
+                </div>
+
+                <div class="routes-cards-stack" id="routesContainer">
+                    <!-- Populated dynamically via JS -->
+                </div>
+            </div>
+
+            <!-- Map Layer Toggles -->
+            <div class="panel-section layer-toggles-section">
+                <div class="section-header">
+                    <h3><i class="fa-solid fa-layer-group text-info"></i> Safety Map Layers</h3>
+                </div>
+                <div class="layer-pills-row">
+                    <label class="toggle-pill active" id="layerToggleHotspots">
+                        <input type="checkbox" checked id="chkHotspots">
+                        <i class="fa-solid fa-fire text-danger"></i> Crime Hotspots
+                    </label>
+                    <label class="toggle-pill active" id="layerTogglePolice">
+                        <input type="checkbox" checked id="chkPolice">
+                        <i class="fa-solid fa-shield-halved text-primary"></i> Police Booths
+                    </label>
+                    <label class="toggle-pill active" id="layerToggleHospitals">
+                        <input type="checkbox" checked id="chkHospitals">
+                        <i class="fa-solid fa-hospital text-success"></i> Hospitals
+                    </label>
+                    <label class="toggle-pill active" id="layerToggleIncidents">
+                        <input type="checkbox" checked id="chkIncidents">
+                        <i class="fa-solid fa-bullhorn text-warning"></i> User Reports
+                    </label>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Interactive Map Container -->
+        <section class="map-wrapper">
+            <div id="map"></div>
+
+            <!-- Floating Map Overlay Controls -->
+            <div class="map-overlay-tools">
+                <div class="map-legend">
+                    <h4>Safety Legend</h4>
+                    <div class="legend-item"><span class="legend-color color-safest"></span> <strong>Safest Route</strong> (Max Safety)</div>
+                    <div class="legend-item"><span class="legend-color color-balanced"></span> <strong>Balanced Route</strong> (Moderate)</div>
+                    <div class="legend-item"><span class="legend-color color-fastest"></span> <strong>Direct Route</strong> (High Risk)</div>
+                    <div class="legend-item"><span class="legend-hotspot-circle"></span> <strong>Crime Hotspot Cluster</strong></div>
+                </div>
+
+                <div class="map-actions-dock">
+                    <button id="btnRecenter" class="dock-btn" title="Recenter to Route"><i class="fa-solid fa-compress"></i></button>
+                    <button id="btnToggleSatellite" class="dock-btn" title="Toggle Base Map Style"><i class="fa-solid fa-map"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal: Emergency SOS Broadcast -->
+    <div class="modal-backdrop" id="modalSos">
+        <div class="modal-card modal-sos-card">
+            <div class="modal-header">
+                <div class="sos-icon-pulse"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                <div>
+                    <h2>EMERGENCY SOS DISPATCH</h2>
+                    <p class="text-muted">Simulated High-Priority Alert & Helpline Access</p>
+                </div>
+                <button class="modal-close" data-close="modalSos">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="alert-status-banner">
+                    <i class="fa-solid fa-satellite-dish fa-spin"></i>
+                    <div>
+                        <strong>Emergency Distress Broadcast Active</strong>
+                        <p id="sosCoordText">Current GPS Coordinates Dispatched to Registered Contacts.</p>
+                    </div>
+                </div>
+
+                <div class="helplines-grid">
+                    <a href="tel:112" class="helpline-card emergency-primary">
+                        <div class="helpline-num">112</div>
+                        <div class="helpline-title">National Emergency</div>
+                        <div class="helpline-desc">Immediate Police, Fire & Medical dispatch</div>
+                    </a>
+                    <a href="tel:1091" class="helpline-card emergency-women">
+                        <div class="helpline-num">1091</div>
+                        <div class="helpline-title">Women Safety Helpline</div>
+                        <div class="helpline-desc">24/7 Dedicated Women Distress Response</div>
+                    </a>
+                    <a href="tel:100" class="helpline-card">
+                        <div class="helpline-num">100</div>
+                        <div class="helpline-title">Police Control Room</div>
+                        <div class="helpline-desc">Direct Police Dispatch</div>
+                    </a>
+                    <a href="tel:108" class="helpline-card">
+                        <div class="helpline-num">108</div>
+                        <div class="helpline-title">Ambulance Service</div>
+                        <div class="helpline-desc">24/7 Medical Care</div>
+                    </a>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" data-close="modalSos">Dismiss Alert</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Report Incident -->
+    <div class="modal-backdrop" id="modalReport">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div>
+                    <h2><i class="fa-solid fa-flag text-warning"></i> Report Safety Concern</h2>
+                    <p class="text-muted">Crowdsourced alerts immediately inform the AI risk model</p>
+                </div>
+                <button class="modal-close" data-close="modalReport">&times;</button>
+            </div>
+            <form id="formReportIncident" class="modal-body">
+                <div class="form-row">
+                    <label for="repCategory">Incident Category</label>
+                    <select id="repCategory" required>
+                        <option value="Poor Street Lighting">Poor / Defective Street Lighting</option>
+                        <option value="Eve Teasing / Catcalling">Eve Teasing / Harassment</option>
+                        <option value="Deserted / Isolated Stretch">Deserted / Isolated Stretch</option>
+                        <option value="Stalking Incident">Suspicious Activity / Stalking</option>
+                        <option value="Snatching / Theft">Snatching / Pickpocketing</option>
+                        <option value="Other Safety Hazard">Other Safety Hazard</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="repDescription">Description & Landmarks</label>
+                    <textarea id="repDescription" rows="3" placeholder="Describe the safety concern (e.g., streetlights broken for past 10 days near alley)..." required></textarea>
+                </div>
+
+                <div class="form-columns">
+                    <div class="form-row">
+                        <label for="repSeverity">Perceived Severity (1 - 10)</label>
+                        <input type="range" id="repSeverity" min="1" max="10" value="6" oninput="document.getElementById('sevVal').innerText = this.value">
+                        <div class="range-display">Severity: <span id="sevVal" class="text-warning font-bold">6</span>/10</div>
+                    </div>
+                    <div class="form-row">
+                        <label for="repLighting">Lighting Quality (1 - 5)</label>
+                        <input type="range" id="repLighting" min="1" max="5" value="2" oninput="document.getElementById('lightVal').innerText = this.value">
+                        <div class="range-display">Lighting: <span id="lightVal" class="text-info font-bold">2</span>/5</div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Report Location</label>
+                    <div class="coord-inputs">
+                        <input type="number" step="0.0001" id="repLat" placeholder="Latitude" value="12.9756" required>
+                        <input type="number" step="0.0001" id="repLon" placeholder="Longitude" value="77.6066" required>
+                        <button type="button" id="btnPickReportLocation" class="btn-secondary btn-sm" title="Pick point on map">
+                            <i class="fa-solid fa-map-pin"></i> Pick on Map
+                        </button>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn-secondary" data-close="modalReport">Cancel</button>
+                    <button type="submit" class="btn-primary-action">Submit Report</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: AI & ML Model Insights -->
+    <div class="modal-backdrop" id="modalAiInsights">
+        <div class="modal-card modal-lg">
+            <div class="modal-header">
+                <div>
+                    <h2><i class="fa-solid fa-microchip text-primary"></i> AI & Machine Learning Architecture</h2>
+                    <p class="text-muted">SafeRoute Model Architecture & Research Alignment</p>
+                </div>
+                <button class="modal-close" data-close="modalAiInsights">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="metrics-cards-grid" id="mlMetricsSummary">
+                    <div class="metric-card">
+                        <div class="metric-num" id="metricSamples">350</div>
+                        <div class="metric-lbl">Crime Incidents Analyzed</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-num" id="metricClusters">8</div>
+                        <div class="metric-lbl">K-Means Hotspot Clusters</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-num" id="metricMae">10.1</div>
+                        <div class="metric-lbl">Model MAE Error</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-num" id="metricR2">0.72</div>
+                        <div class="metric-lbl">Random Forest R² Score</div>
+                    </div>
+                </div>
+
+                <div class="insights-content-block">
+                    <h4>Feature Importance in Risk Scoring</h4>
+                    <p class="text-muted">Features evaluated by the Random Forest Regressor when scoring each road segment:</p>
+                    <div class="feature-bars-list" id="featureBarsList">
+                        <!-- Populated via JS -->
+                    </div>
+                </div>
+
+                <div class="insights-content-block literature-box">
+                    <h4>Academic Literature & Methodology Alignment</h4>
+                    <ul>
+                        <li><strong>Levy et al. (SafeRoute Research)</strong>: Combines route efficiency (distance & travel time) with multi-factor historical safety scoring.</li>
+                        <li><strong>K-Means Unsupervised Clustering</strong>: Discovers geographic crime density centroids and dynamic risk radius.</li>
+                        <li><strong>Random Forest Regressor</strong>: Accurately estimates road segment risk (0 - 100) using time-of-day, proximity to emergency stations, and lighting indices.</li>
+                        <li><strong>OSRM / OpenStreetMap Engine</strong>: Dynamic graph routing with safety-weighted waypoints.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" data-close="modalAiInsights">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- Application JS -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

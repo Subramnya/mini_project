@@ -1,0 +1,351 @@
+incident_id,incident_type,latitude,longitude,hour_of_day,is_night,lighting_quality,severity,proximity_police_km,proximity_hospital_km,location_desc,risk_score
+INC-1000,Snatching / Pickpocketing,12.848677,77.659232,21,1,1,5,2.38,3.88,Electronic City Phase 2 Isolated Flyover,68.7
+INC-1001,Snatching / Pickpocketing,12.933561,77.635554,3,1,1,6,2.49,1.68,Koramangala 8th Block Outskirts,77.9
+INC-1002,Deserted / Isolated Stretch,12.966556,77.74664,23,1,1,5,2.02,0.1,Whitefield Outer Roadways,63.4
+INC-1003,Deserted / Isolated Stretch,12.908164,77.63751,0,1,1,4,2.08,1.2,HSR 27th Main Dark Stretch,58.0
+INC-1004,Eve Teasing / Catcalling,13.04606,77.59542,19,0,3,8,1.86,0.63,Hebbal Ring Road Service Lane,63.0
+INC-1005,Stalking Incident,12.929492,77.646969,16,0,1,7,1.9,0.93,Urban Roadway,67.4
+INC-1006,Poor Street Lighting,12.840996,77.658158,12,0,1,6,1.26,4.24,Electronic City Phase 2 Isolated Flyover,58.1
+INC-1007,Eve Teasing / Catcalling,13.028396,77.602758,0,1,1,7,0.7,2.43,Hebbal Ring Road Service Lane,72.4
+INC-1008,Deserted / Isolated Stretch,12.925903,77.625878,21,1,1,5,2.46,2.39,Koramangala 8th Block Outskirts,69.3
+INC-1009,Stalking Incident,13.001192,77.55405,0,1,1,8,1.15,1.69,Yeshwanthpur Industrial Perimeter,89.0
+INC-1010,Verbal Harassment,12.934245,77.535223,16,0,1,9,2.11,0.26,Urban Roadway,80.7
+INC-1011,Eve Teasing / Catcalling,12.946359,77.580922,3,1,1,8,1.45,1.46,Urban Roadway,88.5
+INC-1012,Verbal Harassment,12.992817,77.647219,10,0,3,9,1.04,1.86,Indiranagar 100ft Backroads,70.1
+INC-1013,Poor Street Lighting,12.942029,77.621146,21,1,2,3,1.63,0.98,Koramangala 8th Block Outskirts,47.0
+INC-1014,Eve Teasing / Catcalling,12.960688,77.594494,3,1,1,5,1.74,3.3,Lalbagh West Gate Peripheral,68.9
+INC-1015,Deserted / Isolated Stretch,12.840684,77.66273,16,0,1,6,3.18,2.16,Electronic City Phase 2 Isolated Flyover,67.6
+INC-1016,Stalking Incident,12.826862,77.665953,10,0,1,9,1.88,1.87,Electronic City Phase 2 Isolated Flyover,79.5
+INC-1017,Verbal Harassment,12.971687,77.639162,21,1,3,6,2.12,3.83,Indiranagar 100ft Backroads,65.7
+INC-1018,Snatching / Pickpocketing,12.929541,77.620988,14,0,2,5,2.62,2.56,Koramangala 8th Block Outskirts,49.5
+INC-1019,Eve Teasing / Catcalling,12.938793,77.62518,2,1,1,6,2.67,1.43,Koramangala 8th Block Outskirts,75.7
+INC-1020,Poor Street Lighting,13.000555,77.554155,3,1,2,4,2.07,2.49,Yeshwanthpur Industrial Perimeter,58.2
+INC-1021,Verbal Harassment,12.994872,77.683978,0,1,2,9,1.59,0.64,Urban Roadway,88.2
+INC-1022,Poor Street Lighting,13.033401,77.591384,3,1,1,4,1.65,2.64,Hebbal Ring Road Service Lane,66.8
+INC-1023,Poor Street Lighting,12.977222,77.573803,19,0,2,3,1.73,0.09,Majestic Alleys / Underpass,35.7
+INC-1024,Stalking Incident,12.955422,77.602243,21,1,2,8,1.63,2.53,Lalbagh West Gate Peripheral,83.0
+INC-1025,Verbal Harassment,12.889986,77.542294,1,1,2,9,0.75,3.46,Urban Roadway,89.6
+INC-1026,Verbal Harassment,12.940737,77.618134,0,1,1,7,3.06,0.66,Koramangala 8th Block Outskirts,85.9
+INC-1027,Eve Teasing / Catcalling,12.927433,77.637666,23,1,2,6,1.29,2.31,HSR 27th Main Dark Stretch,67.7
+INC-1028,Verbal Harassment,12.992445,77.56488,3,1,1,6,0.84,2.72,Yeshwanthpur Industrial Perimeter,69.3
+INC-1029,Verbal Harassment,12.884925,77.631697,1,1,1,7,3.19,1.34,Urban Roadway,83.5
+INC-1030,Eve Teasing / Catcalling,12.905693,77.700336,1,1,3,8,2.53,0.85,Urban Roadway,82.0
+INC-1031,Poor Street Lighting,12.98515,77.560748,3,1,1,5,1.97,2.49,Majestic Alleys / Underpass,70.8
+INC-1032,Poor Street Lighting,12.994641,77.555157,10,0,1,3,2.27,2.53,Yeshwanthpur Industrial Perimeter,41.9
+INC-1033,Verbal Harassment,12.937625,77.61974,12,0,2,6,2.01,2.52,Koramangala 8th Block Outskirts,53.9
+INC-1034,Attempted Robbery,12.98906,77.575317,1,1,2,10,0.73,2.92,Majestic Alleys / Underpass,90.9
+INC-1035,Eve Teasing / Catcalling,12.99111,77.64881,21,1,3,8,1.06,3.26,Indiranagar 100ft Backroads,78.9
+INC-1036,Eve Teasing / Catcalling,12.865234,77.625406,8,0,1,6,2.54,4.29,Urban Roadway,60.6
+INC-1037,Stalking Incident,13.030524,77.590773,12,0,2,9,1.07,2.12,Hebbal Ring Road Service Lane,74.2
+INC-1038,Poor Street Lighting,12.997743,77.660686,6,0,2,3,2.05,3.11,Urban Roadway,36.7
+INC-1039,Attempted Robbery,12.945375,77.622647,10,0,2,10,4.25,2.89,Koramangala 8th Block Outskirts,85.1
+INC-1040,Snatching / Pickpocketing,12.978104,77.644077,14,0,4,8,1.6,2.99,Indiranagar 100ft Backroads,61.4
+INC-1041,Eve Teasing / Catcalling,12.860668,77.665885,6,0,1,7,1.73,1.27,Urban Roadway,61.3
+INC-1042,Deserted / Isolated Stretch,12.842074,77.666195,2,1,2,4,1.99,0.83,Electronic City Phase 2 Isolated Flyover,58.5
+INC-1043,Poor Street Lighting,12.995114,77.554282,0,1,1,6,2.15,1.23,Urban Roadway,75.8
+INC-1044,Poor Street Lighting,12.976407,77.563999,12,0,1,3,2.12,2.82,Majestic Alleys / Underpass,44.0
+INC-1045,Eve Teasing / Catcalling,12.977177,77.740256,10,0,1,6,0.96,2.77,Whitefield Outer Roadways,58.9
+INC-1046,Attempted Robbery,13.035097,77.525701,16,0,2,9,2.26,6.44,Urban Roadway,77.9
+INC-1047,Eve Teasing / Catcalling,12.8727,77.720598,12,0,1,8,2.82,3.25,Urban Roadway,77.0
+INC-1048,Eve Teasing / Catcalling,13.032978,77.571272,17,0,2,7,1.52,3.03,Urban Roadway,59.0
+INC-1049,Verbal Harassment,12.908616,77.667541,3,1,2,6,1.59,1.67,Urban Roadway,70.2
+INC-1050,Poor Street Lighting,12.887499,77.741383,20,1,2,5,3.88,0.15,Urban Roadway,71.3
+INC-1051,Deserted / Isolated Stretch,12.992011,77.561096,22,1,2,4,2.78,2.27,Yeshwanthpur Industrial Perimeter,56.7
+INC-1052,Deserted / Isolated Stretch,12.998293,77.569157,12,0,2,7,1.14,2.44,Yeshwanthpur Industrial Perimeter,60.5
+INC-1053,Poor Street Lighting,13.031239,77.612008,20,1,2,5,2.37,0.03,Hebbal Ring Road Service Lane,66.0
+INC-1054,Snatching / Pickpocketing,12.840567,77.666167,22,1,3,8,1.09,2.07,Electronic City Phase 2 Isolated Flyover,79.2
+INC-1055,Deserted / Isolated Stretch,12.979258,77.589218,19,0,2,6,2.58,0.88,Urban Roadway,56.4
+INC-1056,Eve Teasing / Catcalling,12.977399,77.594117,22,1,1,6,1.37,1.48,Urban Roadway,78.7
+INC-1057,Snatching / Pickpocketing,13.038635,77.588174,22,1,1,6,2.63,4.53,Hebbal Ring Road Service Lane,79.7
+INC-1058,Poor Street Lighting,12.944364,77.58161,20,1,2,6,2.94,1.42,Lalbagh West Gate Peripheral,74.7
+INC-1059,Verbal Harassment,12.975222,77.743411,22,1,1,6,1.75,1.37,Whitefield Outer Roadways,71.3
+INC-1060,Verbal Harassment,13.035948,77.699037,3,1,2,6,1.57,0.83,Urban Roadway,74.8
+INC-1061,Snatching / Pickpocketing,12.875485,77.550668,3,1,1,8,0.51,1.72,Urban Roadway,84.7
+INC-1062,Snatching / Pickpocketing,13.013389,77.554349,3,1,3,8,2.85,2.21,Yeshwanthpur Industrial Perimeter,79.2
+INC-1063,Stalking Incident,13.026371,77.583782,18,0,1,9,2.22,2.42,Urban Roadway,78.2
+INC-1064,Stalking Incident,12.986089,77.638003,0,1,1,8,1.9,2.93,Indiranagar 100ft Backroads,92.5
+INC-1065,Poor Street Lighting,12.903435,77.659531,8,0,2,6,0.04,2.03,HSR 27th Main Dark Stretch,52.9
+INC-1066,Eve Teasing / Catcalling,12.977967,77.567641,1,1,2,5,1.61,1.66,Majestic Alleys / Underpass,61.8
+INC-1067,Verbal Harassment,12.92988,77.521356,1,1,2,7,2.56,2.59,Urban Roadway,76.8
+INC-1068,Stalking Incident,12.961297,77.587151,0,1,2,8,2.53,2.89,Lalbagh West Gate Peripheral,82.8
+INC-1069,Verbal Harassment,13.055952,77.642848,6,0,1,9,1.3,3.02,Urban Roadway,79.6
+INC-1070,Poor Street Lighting,12.975854,77.572821,0,1,1,6,2.95,1.55,Majestic Alleys / Underpass,79.0
+INC-1071,Eve Teasing / Catcalling,12.929617,77.692962,14,0,1,8,1.62,1.96,Urban Roadway,75.3
+INC-1072,Poor Street Lighting,13.041578,77.602695,20,1,1,3,2.97,2.22,Hebbal Ring Road Service Lane,60.0
+INC-1073,Attempted Robbery,12.973828,77.574269,22,1,1,10,1.68,2.31,Majestic Alleys / Underpass,100.0
+INC-1074,Snatching / Pickpocketing,12.979872,77.655347,23,1,1,5,0.89,0.86,Indiranagar 100ft Backroads,69.2
+INC-1075,Verbal Harassment,12.850742,77.664569,19,0,2,9,2.37,2.19,Electronic City Phase 2 Isolated Flyover,73.7
+INC-1076,Eve Teasing / Catcalling,12.935731,77.61976,22,1,1,7,2.68,2.04,Koramangala 8th Block Outskirts,80.7
+INC-1077,Verbal Harassment,12.93295,77.627391,6,0,2,9,1.29,1.3,Koramangala 8th Block Outskirts,74.5
+INC-1078,Snatching / Pickpocketing,13.037515,77.593451,1,1,1,7,1.38,2.46,Hebbal Ring Road Service Lane,75.6
+INC-1079,Snatching / Pickpocketing,12.998535,77.620162,14,0,4,8,0.53,1.41,Urban Roadway,56.7
+INC-1080,Stalking Incident,12.97442,77.59413,20,1,2,10,2.08,3.82,Urban Roadway,99.8
+INC-1081,Eve Teasing / Catcalling,12.96868,77.749767,2,1,2,6,0.9,2.18,Whitefield Outer Roadways,67.4
+INC-1082,Stalking Incident,12.847459,77.654409,23,1,1,8,2.27,3.89,Electronic City Phase 2 Isolated Flyover,88.3
+INC-1083,Poor Street Lighting,12.952601,77.694378,18,0,2,3,2.16,2.96,Urban Roadway,35.7
+INC-1084,Poor Street Lighting,12.987169,77.640788,0,1,2,5,1.89,1.35,Indiranagar 100ft Backroads,64.3
+INC-1085,Stalking Incident,12.919466,77.681657,23,1,1,7,2.25,3.8,Urban Roadway,85.0
+INC-1086,Deserted / Isolated Stretch,13.018372,77.559029,10,0,1,5,2.59,2.4,Yeshwanthpur Industrial Perimeter,61.5
+INC-1087,Deserted / Isolated Stretch,12.997642,77.558522,20,1,1,6,1.26,0.14,Yeshwanthpur Industrial Perimeter,71.6
+INC-1088,Eve Teasing / Catcalling,12.970686,77.573053,10,0,2,5,2.11,4.26,Majestic Alleys / Underpass,52.6
+INC-1089,Attempted Robbery,12.908062,77.638311,2,1,1,8,2.24,0.75,HSR 27th Main Dark Stretch,94.1
+INC-1090,Snatching / Pickpocketing,12.963256,77.581716,19,0,3,8,0.26,3.69,Lalbagh West Gate Peripheral,60.3
+INC-1091,Poor Street Lighting,12.963665,77.573839,19,0,1,4,1.26,2.21,Lalbagh West Gate Peripheral,45.3
+INC-1092,Verbal Harassment,12.867888,77.577084,1,1,1,7,1.39,2.89,Urban Roadway,76.8
+INC-1093,Verbal Harassment,12.954003,77.585842,1,1,2,6,2.26,2.98,Lalbagh West Gate Peripheral,68.3
+INC-1094,Snatching / Pickpocketing,13.048994,77.567791,20,1,2,6,0.42,3.61,Urban Roadway,68.0
+INC-1095,Poor Street Lighting,12.970761,77.582858,2,1,2,3,1.9,3.5,Majestic Alleys / Underpass,51.5
+INC-1096,Eve Teasing / Catcalling,12.969425,77.597287,22,1,2,6,1.58,3.27,Lalbagh West Gate Peripheral,71.9
+INC-1097,Stalking Incident,12.92168,77.637846,10,0,1,7,2.42,3.36,HSR 27th Main Dark Stretch,62.3
+INC-1098,Poor Street Lighting,12.836917,77.645925,2,1,2,6,1.56,2.99,Electronic City Phase 2 Isolated Flyover,74.4
+INC-1099,Attempted Robbery,12.955519,77.5964,19,0,2,10,0.56,0.33,Lalbagh West Gate Peripheral,78.2
+INC-1100,Snatching / Pickpocketing,12.988288,77.640471,6,0,4,7,0.06,2.1,Indiranagar 100ft Backroads,45.7
+INC-1101,Snatching / Pickpocketing,12.88679,77.639362,23,1,2,8,2.4,2.6,Urban Roadway,82.2
+INC-1102,Snatching / Pickpocketing,12.931603,77.617086,1,1,1,5,1.74,3.25,Koramangala 8th Block Outskirts,64.9
+INC-1103,Verbal Harassment,12.958528,77.581288,1,1,1,6,1.09,2.08,Lalbagh West Gate Peripheral,69.6
+INC-1104,Eve Teasing / Catcalling,12.965924,77.741515,6,0,3,8,3.57,2.24,Whitefield Outer Roadways,66.8
+INC-1105,Stalking Incident,13.037298,77.596214,2,1,2,7,1.6,2.88,Hebbal Ring Road Service Lane,78.8
+INC-1106,Eve Teasing / Catcalling,12.841486,77.656169,2,1,1,5,1.55,0.33,Electronic City Phase 2 Isolated Flyover,62.8
+INC-1107,Attempted Robbery,12.995168,77.652215,14,0,1,10,1.58,2.83,Indiranagar 100ft Backroads,85.9
+INC-1108,Poor Street Lighting,13.041715,77.626133,21,1,2,5,4.57,3.43,Urban Roadway,70.5
+INC-1109,Stalking Incident,12.948311,77.573755,12,0,2,8,1.98,1.37,Lalbagh West Gate Peripheral,64.7
+INC-1110,Eve Teasing / Catcalling,12.956731,77.722245,14,0,2,7,1.22,1.01,Urban Roadway,65.6
+INC-1111,Attempted Robbery,12.982171,77.571944,23,1,2,9,3.13,2.29,Majestic Alleys / Underpass,90.7
+INC-1112,Stalking Incident,13.046462,77.600772,3,1,2,10,0.87,1.99,Hebbal Ring Road Service Lane,91.5
+INC-1113,Attempted Robbery,13.055963,77.574925,1,1,1,10,0.56,3.22,Urban Roadway,100.0
+INC-1114,Deserted / Isolated Stretch,12.96001,77.753841,21,1,2,4,1.21,1.66,Whitefield Outer Roadways,54.2
+INC-1115,Poor Street Lighting,12.919719,77.543084,8,0,2,3,1.02,2.25,Urban Roadway,31.6
+INC-1116,Deserted / Isolated Stretch,12.913993,77.644248,23,1,2,7,1.58,1.2,HSR 27th Main Dark Stretch,74.7
+INC-1117,Snatching / Pickpocketing,13.028992,77.717649,0,1,4,8,2.48,2.75,Urban Roadway,74.3
+INC-1118,Verbal Harassment,12.935895,77.62976,23,1,1,6,0.3,2.8,Koramangala 8th Block Outskirts,68.8
+INC-1119,Stalking Incident,12.939194,77.619157,23,1,1,7,0.18,0.41,Koramangala 8th Block Outskirts,77.1
+INC-1120,Eve Teasing / Catcalling,13.037618,77.59067,21,1,1,8,2.37,0.37,Hebbal Ring Road Service Lane,88.7
+INC-1121,Snatching / Pickpocketing,12.885697,77.538163,12,0,3,6,0.71,1.48,Urban Roadway,48.9
+INC-1122,Eve Teasing / Catcalling,12.948977,77.582308,19,0,2,7,2.71,1.57,Lalbagh West Gate Peripheral,66.8
+INC-1123,Deserted / Isolated Stretch,12.947092,77.588709,14,0,2,6,3.1,0.52,Lalbagh West Gate Peripheral,56.4
+INC-1124,Stalking Incident,12.97384,77.748479,8,0,1,10,2.13,1.54,Whitefield Outer Roadways,86.6
+INC-1125,Snatching / Pickpocketing,12.84411,77.668374,1,1,1,5,2.03,2.57,Electronic City Phase 2 Isolated Flyover,67.3
+INC-1126,Verbal Harassment,13.024896,77.727675,12,0,3,8,1.36,1.72,Urban Roadway,64.6
+INC-1127,Eve Teasing / Catcalling,12.842253,77.662228,10,0,3,5,3.67,3.16,Electronic City Phase 2 Isolated Flyover,48.7
+INC-1128,Verbal Harassment,12.853608,77.657343,6,0,3,8,0.03,1.09,Electronic City Phase 2 Isolated Flyover,54.5
+INC-1129,Deserted / Isolated Stretch,12.842739,77.660329,1,1,1,5,3.31,2.56,Electronic City Phase 2 Isolated Flyover,71.1
+INC-1130,Poor Street Lighting,13.041606,77.581522,23,1,1,5,2.01,3.05,Hebbal Ring Road Service Lane,64.1
+INC-1131,Verbal Harassment,13.053151,77.587883,8,0,2,6,2.83,2.57,Urban Roadway,56.8
+INC-1132,Poor Street Lighting,13.03063,77.68657,16,0,1,6,2.37,4.7,Urban Roadway,61.5
+INC-1133,Poor Street Lighting,12.956738,77.581784,23,1,2,5,1.04,3.11,Lalbagh West Gate Peripheral,59.5
+INC-1134,Poor Street Lighting,12.976501,77.568656,3,1,2,4,2.23,2.57,Majestic Alleys / Underpass,61.7
+INC-1135,Snatching / Pickpocketing,12.95143,77.583111,14,0,4,8,0.92,1.71,Lalbagh West Gate Peripheral,59.4
+INC-1136,Poor Street Lighting,12.981299,77.565545,2,1,1,3,2.58,3.69,Majestic Alleys / Underpass,58.2
+INC-1137,Eve Teasing / Catcalling,12.982938,77.744483,3,1,2,6,0.68,0.24,Whitefield Outer Roadways,72.2
+INC-1138,Verbal Harassment,12.959581,77.584611,23,1,1,8,2.05,0.96,Lalbagh West Gate Peripheral,95.5
+INC-1139,Eve Teasing / Catcalling,12.986505,77.641466,8,0,3,7,2.45,2.73,Indiranagar 100ft Backroads,60.3
+INC-1140,Snatching / Pickpocketing,12.925322,77.611572,20,1,1,6,1.09,2.72,Urban Roadway,78.4
+INC-1141,Snatching / Pickpocketing,12.985418,77.583152,0,1,2,6,1.34,1.11,Majestic Alleys / Underpass,69.0
+INC-1142,Verbal Harassment,13.00369,77.572059,22,1,1,8,0.28,3.88,Yeshwanthpur Industrial Perimeter,83.2
+INC-1143,Verbal Harassment,12.975156,77.583773,10,0,3,8,1.42,1.09,Urban Roadway,58.6
+INC-1144,Verbal Harassment,12.981762,77.572513,0,1,1,8,0.64,0.78,Majestic Alleys / Underpass,83.6
+INC-1145,Poor Street Lighting,12.923783,77.642783,8,0,1,6,0.45,1.93,HSR 27th Main Dark Stretch,55.3
+INC-1146,Stalking Incident,12.916322,77.62412,22,1,1,9,1.59,2.97,Koramangala 8th Block Outskirts,99.0
+INC-1147,Stalking Incident,12.862773,77.630166,20,1,2,10,2.81,1.9,Urban Roadway,95.7
+INC-1148,Poor Street Lighting,12.930114,77.645015,23,1,2,6,1.81,2.17,HSR 27th Main Dark Stretch,71.1
+INC-1149,Attempted Robbery,12.953989,77.580984,1,1,1,8,1.31,2.16,Lalbagh West Gate Peripheral,84.6
+INC-1150,Verbal Harassment,12.99831,77.565145,12,0,2,9,1.57,3.85,Yeshwanthpur Industrial Perimeter,66.5
+INC-1151,Verbal Harassment,12.962641,77.593723,20,1,2,9,0.07,1.82,Lalbagh West Gate Peripheral,84.6
+INC-1152,Eve Teasing / Catcalling,12.902247,77.639155,18,0,1,5,0.8,4.13,HSR 27th Main Dark Stretch,53.3
+INC-1153,Verbal Harassment,12.944101,77.629552,16,0,1,6,0.78,1.62,Koramangala 8th Block Outskirts,58.4
+INC-1154,Snatching / Pickpocketing,13.027245,77.601991,17,0,3,8,1.58,1.79,Hebbal Ring Road Service Lane,66.1
+INC-1155,Verbal Harassment,13.053364,77.658094,3,1,1,7,2.2,1.8,Urban Roadway,85.5
+INC-1156,Snatching / Pickpocketing,12.927633,77.628812,3,1,1,7,2.33,1.86,Koramangala 8th Block Outskirts,83.3
+INC-1157,Snatching / Pickpocketing,13.027483,77.744146,6,0,4,7,0.67,3.22,Urban Roadway,50.6
+INC-1158,Poor Street Lighting,12.841541,77.667543,16,0,1,4,1.17,0.65,Electronic City Phase 2 Isolated Flyover,40.3
+INC-1159,Verbal Harassment,12.974042,77.740937,19,0,1,7,3.38,0.09,Whitefield Outer Roadways,75.0
+INC-1160,Eve Teasing / Catcalling,12.913577,77.643923,0,1,1,5,1.31,2.64,HSR 27th Main Dark Stretch,66.7
+INC-1161,Poor Street Lighting,12.86045,77.538764,1,1,2,6,2.79,2.33,Urban Roadway,73.4
+INC-1162,Stalking Incident,13.000755,77.564001,1,1,1,9,2.08,0.32,Yeshwanthpur Industrial Perimeter,90.7
+INC-1163,Deserted / Isolated Stretch,13.008503,77.565596,6,0,1,7,1.63,2.22,Yeshwanthpur Industrial Perimeter,66.6
+INC-1164,Attempted Robbery,12.981822,77.635252,22,1,1,10,1.98,1.12,Indiranagar 100ft Backroads,100.0
+INC-1165,Eve Teasing / Catcalling,12.943082,77.592204,10,0,1,8,2.23,2.48,Lalbagh West Gate Peripheral,76.5
+INC-1166,Stalking Incident,13.014958,77.571501,16,0,1,10,0.14,0.79,Yeshwanthpur Industrial Perimeter,79.5
+INC-1167,Verbal Harassment,12.976183,77.575624,20,1,2,9,1.15,2.41,Majestic Alleys / Underpass,86.1
+INC-1168,Snatching / Pickpocketing,12.965519,77.740053,1,1,2,7,0.97,0.71,Whitefield Outer Roadways,72.0
+INC-1169,Poor Street Lighting,12.94662,77.67861,1,1,1,4,2.75,1.16,Urban Roadway,71.8
+INC-1170,Stalking Incident,12.938653,77.625794,23,1,2,8,1.03,2.97,Koramangala 8th Block Outskirts,79.8
+INC-1171,Eve Teasing / Catcalling,13.004154,77.582321,3,1,1,7,1.71,3.46,Yeshwanthpur Industrial Perimeter,78.7
+INC-1172,Eve Teasing / Catcalling,12.985543,77.553969,23,1,1,6,1.77,4.15,Urban Roadway,72.5
+INC-1173,Snatching / Pickpocketing,12.987657,77.560744,18,0,3,8,3.43,2.98,Urban Roadway,66.9
+INC-1174,Deserted / Isolated Stretch,12.985028,77.746902,0,1,1,7,2.37,3.27,Urban Roadway,84.3
+INC-1175,Poor Street Lighting,12.834208,77.65511,6,0,2,3,1.58,2.12,Electronic City Phase 2 Isolated Flyover,37.3
+INC-1176,Eve Teasing / Catcalling,12.977244,77.562653,23,1,1,5,2.14,2.87,Majestic Alleys / Underpass,70.5
+INC-1177,Snatching / Pickpocketing,12.962565,77.590837,19,0,3,6,2.21,2.12,Lalbagh West Gate Peripheral,47.5
+INC-1178,Eve Teasing / Catcalling,12.915107,77.646054,18,0,1,7,2.04,0.8,HSR 27th Main Dark Stretch,63.4
+INC-1179,Attempted Robbery,12.919472,77.644323,2,1,2,9,2.41,2.23,HSR 27th Main Dark Stretch,91.6
+INC-1180,Eve Teasing / Catcalling,12.931357,77.698127,6,0,3,7,2.64,1.63,Urban Roadway,60.4
+INC-1181,Poor Street Lighting,12.966564,77.746859,21,1,2,3,1.52,2.44,Whitefield Outer Roadways,48.9
+INC-1182,Snatching / Pickpocketing,13.04459,77.590738,1,1,2,5,1.63,1.72,Hebbal Ring Road Service Lane,67.9
+INC-1183,Eve Teasing / Catcalling,13.037176,77.604223,8,0,3,8,0.46,2.49,Hebbal Ring Road Service Lane,63.8
+INC-1184,Stalking Incident,12.845776,77.667658,22,1,2,10,1.33,3.75,Electronic City Phase 2 Isolated Flyover,100.0
+INC-1185,Eve Teasing / Catcalling,12.882538,77.588032,6,0,3,7,1.47,1.71,Urban Roadway,61.5
+INC-1186,Verbal Harassment,12.980857,77.74624,21,1,3,7,1.42,1.89,Whitefield Outer Roadways,68.0
+INC-1187,Deserted / Isolated Stretch,13.029369,77.589971,12,0,2,6,1.11,2.16,Hebbal Ring Road Service Lane,54.5
+INC-1188,Deserted / Isolated Stretch,12.899141,77.575009,18,0,1,6,3.2,1.1,Urban Roadway,66.0
+INC-1189,Deserted / Isolated Stretch,12.953502,77.584654,23,1,2,7,2.41,0.97,Lalbagh West Gate Peripheral,79.7
+INC-1190,Attempted Robbery,13.018264,77.551832,2,1,2,8,1.95,2.74,Urban Roadway,84.7
+INC-1191,Deserted / Isolated Stretch,12.952387,77.620036,21,1,2,7,1.32,1.51,Koramangala 8th Block Outskirts,74.1
+INC-1192,Verbal Harassment,12.965338,77.758223,22,1,2,8,3.08,1.57,Whitefield Outer Roadways,84.2
+INC-1193,Attempted Robbery,12.9731,77.746034,22,1,2,8,2.37,2.42,Whitefield Outer Roadways,80.4
+INC-1194,Eve Teasing / Catcalling,12.946033,77.637071,16,0,1,6,1.25,1.77,Koramangala 8th Block Outskirts,59.0
+INC-1195,Poor Street Lighting,12.949216,77.711155,18,0,2,3,2.1,2.92,Urban Roadway,42.8
+INC-1196,Verbal Harassment,12.984361,77.635112,17,0,1,8,0.56,1.4,Indiranagar 100ft Backroads,69.3
+INC-1197,Eve Teasing / Catcalling,12.998162,77.637077,2,1,1,5,2.0,2.18,Indiranagar 100ft Backroads,72.1
+INC-1198,Verbal Harassment,13.020989,77.560684,3,1,1,7,1.36,3.35,Yeshwanthpur Industrial Perimeter,81.9
+INC-1199,Eve Teasing / Catcalling,13.048727,77.601087,1,1,1,5,1.48,2.85,Hebbal Ring Road Service Lane,70.5
+INC-1200,Stalking Incident,13.009043,77.567951,3,1,1,10,2.76,3.49,Yeshwanthpur Industrial Perimeter,100.0
+INC-1201,Verbal Harassment,12.974341,77.74873,14,0,3,6,1.93,3.53,Whitefield Outer Roadways,49.4
+INC-1202,Eve Teasing / Catcalling,12.988181,77.637947,8,0,3,7,1.83,3.61,Indiranagar 100ft Backroads,58.6
+INC-1203,Poor Street Lighting,13.036125,77.587481,10,0,2,6,2.47,2.91,Hebbal Ring Road Service Lane,63.7
+INC-1204,Snatching / Pickpocketing,12.863251,77.698524,23,1,2,5,1.52,2.44,Urban Roadway,64.0
+INC-1205,Verbal Harassment,12.916275,77.591317,3,1,2,8,3.22,2.1,Urban Roadway,87.9
+INC-1206,Poor Street Lighting,12.849455,77.661506,19,0,2,5,1.4,2.41,Electronic City Phase 2 Isolated Flyover,51.2
+INC-1207,Poor Street Lighting,12.962614,77.750831,17,0,2,4,1.17,3.51,Whitefield Outer Roadways,36.4
+INC-1208,Stalking Incident,12.999388,77.56704,20,1,2,7,3.21,2.13,Yeshwanthpur Industrial Perimeter,78.9
+INC-1209,Stalking Incident,12.887896,77.587566,0,1,2,9,3.49,0.61,Urban Roadway,87.6
+INC-1210,Stalking Incident,12.91518,77.641086,16,0,2,7,0.88,2.98,HSR 27th Main Dark Stretch,60.4
+INC-1211,Deserted / Isolated Stretch,12.979119,77.620036,19,0,1,7,1.29,0.79,Urban Roadway,67.3
+INC-1212,Eve Teasing / Catcalling,12.992676,77.739142,2,1,1,6,2.39,2.09,Urban Roadway,81.5
+INC-1213,Poor Street Lighting,12.926929,77.608057,21,1,2,5,0.84,0.52,Urban Roadway,59.5
+INC-1214,Eve Teasing / Catcalling,12.970524,77.641776,23,1,1,5,1.76,2.47,Urban Roadway,67.2
+INC-1215,Poor Street Lighting,13.005764,77.555639,3,1,1,5,3.1,2.11,Yeshwanthpur Industrial Perimeter,74.6
+INC-1216,Verbal Harassment,12.987999,77.643897,14,0,3,9,2.31,2.69,Indiranagar 100ft Backroads,74.2
+INC-1217,Eve Teasing / Catcalling,12.944504,77.625876,2,1,1,7,2.44,2.1,Koramangala 8th Block Outskirts,86.9
+INC-1218,Snatching / Pickpocketing,12.998565,77.577007,23,1,2,6,1.76,0.63,Yeshwanthpur Industrial Perimeter,70.8
+INC-1219,Verbal Harassment,12.930433,77.630385,10,0,1,9,1.21,1.71,Koramangala 8th Block Outskirts,71.9
+INC-1220,Poor Street Lighting,13.032634,77.580033,3,1,1,3,0.37,3.04,Hebbal Ring Road Service Lane,53.8
+INC-1221,Poor Street Lighting,12.957978,77.578231,1,1,1,4,1.76,2.2,Lalbagh West Gate Peripheral,57.9
+INC-1222,Attempted Robbery,12.965524,77.591142,3,1,2,9,1.6,2.23,Lalbagh West Gate Peripheral,90.1
+INC-1223,Verbal Harassment,12.984357,77.561852,17,0,3,6,0.04,1.93,Urban Roadway,45.1
+INC-1224,Verbal Harassment,12.838189,77.658232,0,1,1,8,3.42,2.9,Electronic City Phase 2 Isolated Flyover,89.8
+INC-1225,Verbal Harassment,13.007308,77.574195,23,1,1,7,2.63,2.27,Yeshwanthpur Industrial Perimeter,81.1
+INC-1226,Snatching / Pickpocketing,12.916988,77.647354,16,0,4,5,2.61,2.9,HSR 27th Main Dark Stretch,46.2
+INC-1227,Verbal Harassment,12.972253,77.581222,14,0,3,7,1.98,4.48,Majestic Alleys / Underpass,56.4
+INC-1228,Deserted / Isolated Stretch,12.988152,77.573385,3,1,2,6,1.21,1.67,Majestic Alleys / Underpass,68.1
+INC-1229,Stalking Incident,12.993848,77.58841,19,0,1,10,2.18,2.78,Urban Roadway,84.7
+INC-1230,Stalking Incident,13.03563,77.611996,0,1,2,9,3.35,2.68,Hebbal Ring Road Service Lane,94.0
+INC-1231,Attempted Robbery,13.03664,77.601295,20,1,2,9,0.88,1.92,Hebbal Ring Road Service Lane,82.7
+INC-1232,Stalking Incident,12.988395,77.64523,19,0,2,10,1.37,3.93,Indiranagar 100ft Backroads,76.7
+INC-1233,Verbal Harassment,12.901849,77.646171,16,0,1,7,2.74,4.05,HSR 27th Main Dark Stretch,67.0
+INC-1234,Stalking Incident,12.962551,77.58473,18,0,1,7,1.64,3.17,Lalbagh West Gate Peripheral,67.6
+INC-1235,Attempted Robbery,12.974565,77.651036,0,1,1,8,3.04,1.51,Indiranagar 100ft Backroads,91.8
+INC-1236,Eve Teasing / Catcalling,12.958458,77.586825,19,0,1,8,1.3,1.46,Lalbagh West Gate Peripheral,71.2
+INC-1237,Poor Street Lighting,13.044009,77.600805,16,0,1,6,1.47,3.05,Hebbal Ring Road Service Lane,50.1
+INC-1238,Poor Street Lighting,13.043841,77.584822,20,1,2,6,1.47,0.97,Hebbal Ring Road Service Lane,65.8
+INC-1239,Deserted / Isolated Stretch,12.943326,77.621226,20,1,2,6,2.11,2.15,Koramangala 8th Block Outskirts,72.7
+INC-1240,Verbal Harassment,13.036338,77.588019,12,0,3,9,2.7,1.66,Hebbal Ring Road Service Lane,68.6
+INC-1241,Stalking Incident,12.909103,77.655105,18,0,2,8,2.57,1.82,HSR 27th Main Dark Stretch,69.4
+INC-1242,Snatching / Pickpocketing,13.033549,77.611537,16,0,2,8,2.14,2.67,Hebbal Ring Road Service Lane,72.4
+INC-1243,Attempted Robbery,12.912839,77.597366,18,0,2,10,2.01,1.92,Urban Roadway,81.4
+INC-1244,Verbal Harassment,12.934699,77.624239,14,0,3,6,2.45,2.26,Koramangala 8th Block Outskirts,55.3
+INC-1245,Snatching / Pickpocketing,12.985035,77.64125,18,0,2,8,0.0,3.21,Indiranagar 100ft Backroads,65.0
+INC-1246,Poor Street Lighting,12.982986,77.551726,20,1,1,3,3.68,2.05,Majestic Alleys / Underpass,63.0
+INC-1247,Stalking Incident,12.962521,77.754189,17,0,2,7,0.85,1.51,Whitefield Outer Roadways,65.4
+INC-1248,Deserted / Isolated Stretch,13.001965,77.565922,2,1,2,6,2.58,2.75,Yeshwanthpur Industrial Perimeter,72.9
+INC-1249,Attempted Robbery,13.005855,77.581224,0,1,2,10,1.75,2.42,Yeshwanthpur Industrial Perimeter,99.5
+INC-1250,Eve Teasing / Catcalling,13.011039,77.572709,23,1,2,6,2.37,0.94,Yeshwanthpur Industrial Perimeter,76.8
+INC-1251,Deserted / Isolated Stretch,12.946976,77.587118,23,1,2,4,1.12,2.13,Lalbagh West Gate Peripheral,56.8
+INC-1252,Snatching / Pickpocketing,12.97205,77.752853,10,0,3,5,3.25,2.7,Whitefield Outer Roadways,47.9
+INC-1253,Eve Teasing / Catcalling,13.042549,77.605326,14,0,3,8,0.7,2.86,Hebbal Ring Road Service Lane,63.9
+INC-1254,Eve Teasing / Catcalling,12.906938,77.649264,20,1,3,6,1.53,3.71,Urban Roadway,65.4
+INC-1255,Eve Teasing / Catcalling,13.004179,77.563188,22,1,1,5,1.81,0.99,Yeshwanthpur Industrial Perimeter,63.7
+INC-1256,Stalking Incident,12.946362,77.618571,10,0,1,8,0.91,0.17,Koramangala 8th Block Outskirts,68.4
+INC-1257,Eve Teasing / Catcalling,13.034464,77.629813,23,1,2,7,0.61,4.01,Urban Roadway,77.1
+INC-1258,Snatching / Pickpocketing,12.868787,77.652051,19,0,2,8,1.18,4.68,Urban Roadway,69.9
+INC-1259,Verbal Harassment,12.973726,77.554504,17,0,2,7,3.86,0.67,Majestic Alleys / Underpass,62.2
+INC-1260,Attempted Robbery,13.044468,77.721651,20,1,2,10,2.72,4.88,Urban Roadway,100.0
+INC-1261,Stalking Incident,13.007247,77.568563,21,1,2,9,2.57,3.03,Yeshwanthpur Industrial Perimeter,92.8
+INC-1262,Eve Teasing / Catcalling,12.912829,77.644162,14,0,3,6,1.12,1.89,HSR 27th Main Dark Stretch,44.7
+INC-1263,Poor Street Lighting,12.844512,77.65328,22,1,1,6,0.81,2.4,Electronic City Phase 2 Isolated Flyover,76.2
+INC-1264,Verbal Harassment,12.941628,77.613506,20,1,1,7,0.91,3.23,Koramangala 8th Block Outskirts,75.8
+INC-1265,Stalking Incident,12.851434,77.608222,23,1,2,9,1.6,2.81,Urban Roadway,86.6
+INC-1266,Snatching / Pickpocketing,12.845938,77.650862,12,0,2,5,1.26,2.55,Electronic City Phase 2 Isolated Flyover,42.9
+INC-1267,Stalking Incident,13.006383,77.564263,14,0,1,9,2.3,2.45,Yeshwanthpur Industrial Perimeter,84.3
+INC-1268,Eve Teasing / Catcalling,12.912977,77.641594,2,1,3,7,1.91,2.8,HSR 27th Main Dark Stretch,73.4
+INC-1269,Stalking Incident,12.955284,77.580086,12,0,1,7,1.2,0.66,Lalbagh West Gate Peripheral,69.7
+INC-1270,Stalking Incident,13.027093,77.59215,20,1,1,8,1.15,3.18,Hebbal Ring Road Service Lane,85.0
+INC-1271,Snatching / Pickpocketing,13.044534,77.592286,18,0,2,6,2.05,1.28,Hebbal Ring Road Service Lane,62.6
+INC-1272,Deserted / Isolated Stretch,12.994987,77.566569,19,0,2,5,2.37,2.66,Yeshwanthpur Industrial Perimeter,49.9
+INC-1273,Stalking Incident,12.975091,77.572307,23,1,1,10,1.67,3.26,Majestic Alleys / Underpass,100.0
+INC-1274,Eve Teasing / Catcalling,12.981698,77.631111,19,0,2,7,1.72,5.04,Indiranagar 100ft Backroads,59.4
+INC-1275,Deserted / Isolated Stretch,12.987474,77.583744,8,0,2,4,1.3,2.83,Majestic Alleys / Underpass,46.1
+INC-1276,Eve Teasing / Catcalling,12.909446,77.643175,17,0,2,8,1.28,1.08,HSR 27th Main Dark Stretch,65.3
+INC-1277,Stalking Incident,12.929274,77.538457,10,0,2,7,0.7,2.24,Urban Roadway,56.9
+INC-1278,Poor Street Lighting,13.004937,77.553509,22,1,1,3,2.1,3.12,Yeshwanthpur Industrial Perimeter,49.8
+INC-1279,Attempted Robbery,13.005918,77.572994,1,1,1,9,0.71,4.04,Yeshwanthpur Industrial Perimeter,92.5
+INC-1280,Stalking Incident,12.980665,77.64031,8,0,1,10,2.3,2.28,Indiranagar 100ft Backroads,88.4
+INC-1281,Snatching / Pickpocketing,13.036699,77.575353,19,0,3,5,0.97,2.39,Urban Roadway,38.7
+INC-1282,Eve Teasing / Catcalling,12.954221,77.578673,22,1,1,6,1.14,3.56,Lalbagh West Gate Peripheral,76.1
+INC-1283,Stalking Incident,13.040064,77.589354,0,1,1,9,1.52,3.53,Hebbal Ring Road Service Lane,93.7
+INC-1284,Verbal Harassment,12.959463,77.615119,3,1,3,7,3.89,2.63,Urban Roadway,78.8
+INC-1285,Snatching / Pickpocketing,12.952836,77.585935,0,1,4,7,1.66,2.98,Lalbagh West Gate Peripheral,71.5
+INC-1286,Deserted / Isolated Stretch,12.839698,77.650881,3,1,2,5,0.15,2.76,Electronic City Phase 2 Isolated Flyover,56.6
+INC-1287,Verbal Harassment,12.89703,77.64732,6,0,3,9,4.04,2.19,HSR 27th Main Dark Stretch,79.1
+INC-1288,Attempted Robbery,12.912673,77.643908,23,1,1,10,2.63,1.88,HSR 27th Main Dark Stretch,100.0
+INC-1289,Snatching / Pickpocketing,13.027898,77.541267,12,0,2,7,2.09,1.47,Urban Roadway,65.7
+INC-1290,Eve Teasing / Catcalling,12.974775,77.56671,12,0,3,6,2.28,1.21,Majestic Alleys / Underpass,52.8
+INC-1291,Stalking Incident,12.919923,77.740115,22,1,1,10,1.79,3.39,Urban Roadway,100.0
+INC-1292,Verbal Harassment,12.985425,77.646424,22,1,1,8,3.05,2.81,Indiranagar 100ft Backroads,90.7
+INC-1293,Eve Teasing / Catcalling,13.026617,77.589544,0,1,3,8,1.53,1.53,Hebbal Ring Road Service Lane,78.3
+INC-1294,Poor Street Lighting,12.948593,77.713138,16,0,2,6,1.85,2.78,Urban Roadway,55.4
+INC-1295,Poor Street Lighting,13.005663,77.523731,1,1,2,4,2.24,2.27,Urban Roadway,52.7
+INC-1296,Eve Teasing / Catcalling,12.979025,77.639691,0,1,2,8,0.71,2.86,Indiranagar 100ft Backroads,85.4
+INC-1297,Attempted Robbery,12.963531,77.583506,0,1,1,9,3.14,2.36,Lalbagh West Gate Peripheral,96.3
+INC-1298,Deserted / Isolated Stretch,12.999006,77.562283,6,0,1,4,1.45,2.39,Yeshwanthpur Industrial Perimeter,46.1
+INC-1299,Attempted Robbery,12.976021,77.575059,22,1,1,9,2.87,3.24,Majestic Alleys / Underpass,92.2
+INC-1300,Poor Street Lighting,13.017923,77.60354,2,1,2,3,0.57,1.95,Hebbal Ring Road Service Lane,44.4
+INC-1301,Poor Street Lighting,12.963386,77.57579,23,1,2,3,2.48,1.57,Majestic Alleys / Underpass,44.9
+INC-1302,Stalking Incident,12.965976,77.752643,10,0,1,7,0.47,2.4,Whitefield Outer Roadways,62.6
+INC-1303,Stalking Incident,13.007355,77.565237,0,1,2,10,0.92,3.52,Yeshwanthpur Industrial Perimeter,93.8
+INC-1304,Poor Street Lighting,12.94639,77.575938,14,0,1,3,1.78,1.17,Urban Roadway,38.6
+INC-1305,Poor Street Lighting,12.997106,77.563189,19,0,1,3,3.34,0.69,Yeshwanthpur Industrial Perimeter,39.0
+INC-1306,Stalking Incident,13.046098,77.595535,20,1,1,8,1.2,3.34,Hebbal Ring Road Service Lane,84.2
+INC-1307,Eve Teasing / Catcalling,13.036386,77.629365,20,1,3,5,3.44,2.95,Urban Roadway,62.6
+INC-1308,Poor Street Lighting,12.853288,77.567646,1,1,1,5,3.74,1.53,Urban Roadway,75.1
+INC-1309,Poor Street Lighting,12.971895,77.759012,16,0,2,4,3.21,2.24,Whitefield Outer Roadways,43.8
+INC-1310,Verbal Harassment,12.93842,77.619756,0,1,1,6,3.61,2.35,Koramangala 8th Block Outskirts,77.9
+INC-1311,Stalking Incident,12.921524,77.696871,17,0,2,7,1.97,0.72,Urban Roadway,59.5
+INC-1312,Snatching / Pickpocketing,12.944616,77.572472,1,1,1,8,2.88,1.48,Urban Roadway,87.1
+INC-1313,Poor Street Lighting,12.989357,77.649,8,0,2,4,2.45,3.3,Indiranagar 100ft Backroads,41.9
+INC-1314,Eve Teasing / Catcalling,12.882398,77.609613,20,1,1,7,0.52,3.85,Urban Roadway,76.8
+INC-1315,Stalking Incident,12.871469,77.540078,3,1,2,7,1.57,3.66,Urban Roadway,78.1
+INC-1316,Poor Street Lighting,12.938391,77.639655,0,1,2,3,1.22,3.22,Koramangala 8th Block Outskirts,49.7
+INC-1317,Eve Teasing / Catcalling,12.93708,77.635199,12,0,3,6,2.26,2.79,Koramangala 8th Block Outskirts,55.9
+INC-1318,Deserted / Isolated Stretch,12.842645,77.654326,2,1,1,4,0.86,0.04,Electronic City Phase 2 Isolated Flyover,65.3
+INC-1319,Poor Street Lighting,12.837478,77.658651,20,1,2,5,1.55,2.54,Electronic City Phase 2 Isolated Flyover,65.8
+INC-1320,Attempted Robbery,12.954119,77.661834,21,1,2,8,2.57,1.56,Urban Roadway,84.9
+INC-1321,Attempted Robbery,12.971778,77.748159,16,0,2,10,3.25,2.74,Whitefield Outer Roadways,87.3
+INC-1322,Stalking Incident,12.986718,77.65671,22,1,2,9,2.4,3.49,Urban Roadway,92.0
+INC-1323,Poor Street Lighting,13.026722,77.599798,2,1,1,5,1.21,1.62,Hebbal Ring Road Service Lane,68.3
+INC-1324,Eve Teasing / Catcalling,12.932516,77.546194,3,1,1,5,2.91,2.22,Urban Roadway,71.7
+INC-1325,Attempted Robbery,12.997516,77.642385,23,1,1,10,4.14,2.82,Indiranagar 100ft Backroads,100.0
+INC-1326,Deserted / Isolated Stretch,12.850473,77.662868,21,1,2,7,2.96,2.94,Electronic City Phase 2 Isolated Flyover,79.5
+INC-1327,Poor Street Lighting,12.950639,77.612185,1,1,1,5,0.7,1.97,Urban Roadway,62.7
+INC-1328,Deserted / Isolated Stretch,12.974702,77.730312,22,1,2,5,1.28,2.85,Urban Roadway,67.7
+INC-1329,Snatching / Pickpocketing,12.972563,77.741529,16,0,3,5,2.2,3.52,Whitefield Outer Roadways,44.2
+INC-1330,Poor Street Lighting,13.002362,77.564503,12,0,2,5,1.09,2.91,Yeshwanthpur Industrial Perimeter,46.9
+INC-1331,Eve Teasing / Catcalling,12.973604,77.635107,19,0,2,5,2.18,1.22,Urban Roadway,48.6
+INC-1332,Eve Teasing / Catcalling,12.86803,77.711203,16,0,2,7,2.45,1.79,Urban Roadway,68.8
+INC-1333,Stalking Incident,12.952203,77.586573,20,1,2,10,2.64,0.64,Lalbagh West Gate Peripheral,93.3
+INC-1334,Eve Teasing / Catcalling,12.92452,77.633338,0,1,1,6,1.3,5.01,Koramangala 8th Block Outskirts,71.6
+INC-1335,Verbal Harassment,12.958359,77.646939,1,1,2,7,1.97,3.9,Urban Roadway,83.4
+INC-1336,Verbal Harassment,12.926531,77.653059,1,1,2,6,2.72,2.85,HSR 27th Main Dark Stretch,75.1
+INC-1337,Deserted / Isolated Stretch,12.944411,77.618797,22,1,1,6,1.3,1.3,Urban Roadway,73.2
+INC-1338,Deserted / Isolated Stretch,12.863138,77.543403,10,0,2,6,1.65,1.7,Urban Roadway,57.2
+INC-1339,Eve Teasing / Catcalling,12.961687,77.585619,0,1,1,8,3.13,0.94,Lalbagh West Gate Peripheral,90.2
+INC-1340,Snatching / Pickpocketing,12.949982,77.571934,23,1,1,6,1.73,2.07,Lalbagh West Gate Peripheral,78.9
+INC-1341,Eve Teasing / Catcalling,12.939616,77.617331,21,1,1,6,3.47,3.54,Koramangala 8th Block Outskirts,80.4
+INC-1342,Snatching / Pickpocketing,12.953415,77.578284,21,1,1,7,1.47,3.4,Lalbagh West Gate Peripheral,85.8
+INC-1343,Poor Street Lighting,12.965803,77.581578,0,1,1,6,0.79,2.35,Lalbagh West Gate Peripheral,66.7
+INC-1344,Poor Street Lighting,13.052404,77.636251,2,1,2,6,2.09,2.04,Urban Roadway,69.8
+INC-1345,Stalking Incident,12.964837,77.575595,12,0,2,7,1.32,0.91,Majestic Alleys / Underpass,52.2
+INC-1346,Eve Teasing / Catcalling,12.911907,77.657006,18,0,3,5,3.3,1.7,HSR 27th Main Dark Stretch,46.9
+INC-1347,Snatching / Pickpocketing,13.006581,77.557411,16,0,4,5,2.07,3.04,Yeshwanthpur Industrial Perimeter,45.4
+INC-1348,Deserted / Isolated Stretch,12.984899,77.639274,8,0,1,6,1.01,1.29,Indiranagar 100ft Backroads,56.8
+INC-1349,Verbal Harassment,12.847772,77.666595,20,1,2,6,1.08,3.84,Electronic City Phase 2 Isolated Flyover,67.9
