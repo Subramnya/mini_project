@@ -1,0 +1,153 @@
+{
+  "police_stations": [
+    {
+      "id": "POL-01",
+      "name": "Cubbon Park Police Station",
+      "latitude": 12.9738,
+      "longitude": 77.5950,
+      "phone": "+91-80-22942583",
+      "address": "Kasturba Road, Near High Court, Bengaluru",
+      "type": "Police Station",
+      "has_women_desk": true
+    },
+    {
+      "id": "POL-02",
+      "name": "Koramangala Police Station",
+      "latitude": 12.9348,
+      "longitude": 77.6200,
+      "phone": "+91-80-22942566",
+      "address": "80 Feet Road, 6th Block, Koramangala",
+      "type": "Police Station",
+      "has_women_desk": true
+    },
+    {
+      "id": "POL-03",
+      "name": "Indiranagar Police Station",
+      "latitude": 12.9784,
+      "longitude": 77.6408,
+      "phone": "+91-80-22942548",
+      "address": "CMH Road, Indiranagar, Bengaluru",
+      "type": "Police Station",
+      "has_women_desk": true
+    },
+    {
+      "id": "POL-04",
+      "name": "Upparpet (Majestic) Police Station",
+      "latitude": 12.9772,
+      "longitude": 77.5714,
+      "phone": "+91-80-22942574",
+      "address": "Tank Bund Road, Majestic, Bengaluru",
+      "type": "Police Station",
+      "has_women_desk": true
+    },
+    {
+      "id": "POL-05",
+      "name": "HSR Layout Police Station",
+      "latitude": 12.9116,
+      "longitude": 77.6389,
+      "phone": "+91-80-22943460",
+      "address": "27th Main Rd, Sector 1, HSR Layout",
+      "type": "Police Station",
+      "has_women_desk": true
+    },
+    {
+      "id": "POL-06",
+      "name": "Hebbal Police Station",
+      "latitude": 13.0382,
+      "longitude": 77.5912,
+      "phone": "+91-80-22942539",
+      "address": "Bellary Road, Near Flyover, Hebbal",
+      "type": "Police Station",
+      "has_women_desk": true
+    },
+    {
+      "id": "POL-07",
+      "name": "Whitefield Police Station",
+      "latitude": 12.9698,
+      "longitude": 77.7499,
+      "phone": "+91-80-22942545",
+      "address": "Whitefield Main Road, Bengaluru",
+      "type": "Police Station",
+      "has_women_desk": true
+    },
+    {
+      "id": "POL-08",
+      "name": "Electronic City Police Station",
+      "latitude": 12.8452,
+      "longitude": 77.6602,
+      "phone": "+91-80-22943477",
+      "address": "Hosur Road, Electronic City Phase 1",
+      "type": "Police Station",
+      "has_women_desk": true
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "HOSP-01",
+      "name": "Bowring & Lady Curzon Hospital (24/7)",
+      "latitude": 12.9815,
+      "longitude": 77.6047,
+      "phone": "+91-80-25591362",
+      "address": "Shivajinagar, Bengaluru",
+      "emergency_beds": 45,
+      "type": "24/7 Hospital"
+    },
+    {
+      "id": "HOSP-02",
+      "name": "St. John's Medical College & Hospital",
+      "latitude": 12.9318,
+      "longitude": 77.6186,
+      "phone": "+91-80-22065000",
+      "address": "Sarjapur Road, John Nagar, Koramangala",
+      "emergency_beds": 120,
+      "type": "24/7 Hospital"
+    },
+    {
+      "id": "HOSP-03",
+      "name": "Manipal Hospital HAL Airport Road",
+      "latitude": 12.9582,
+      "longitude": 77.6485,
+      "phone": "+91-80-25024444",
+      "address": "98 HAL Old Airport Rd, Kodihalli",
+      "emergency_beds": 80,
+      "type": "24/7 Hospital"
+    },
+    {
+      "id": "HOSP-04",
+      "name": "Victoria Hospital & Emergency Care",
+      "latitude": 12.9634,
+      "longitude": 77.5746,
+      "phone": "+91-80-26701150",
+      "address": "Fort, Near City Market, Bengaluru",
+      "emergency_beds": 150,
+      "type": "24/7 Hospital"
+    },
+    {
+      "id": "HOSP-05",
+      "name": "Aster CMI Hospital",
+      "latitude": 13.0560,
+      "longitude": 77.5925,
+      "phone": "+91-80-43444444",
+      "address": "No. 43/42 NH 7, Sahakar Nagar, Hebbal",
+      "emergency_beds": 60,
+      "type": "24/7 Hospital"
+    },
+    {
+      "id": "HOSP-06",
+      "name": "Apollo Clinic & Emergency HSR",
+      "latitude": 12.9152,
+      "longitude": 77.6490,
+      "phone": "+91-80-46675000",
+      "address": "14th Main, Sector 7, HSR Layout",
+      "emergency_beds": 25,
+      "type": "24/7 Emergency Clinic"
+    }
+  ],
+  "emergency_helplines": [
+    {"name": "National Emergency Number", "number": "112", "desc": "All-in-one Police, Fire, Ambulance"},
+    {"name": "Women Helpline (National)", "number": "1091", "desc": "24/7 Dedicated Women Safety & Assistance"},
+    {"name": "Women Helpline (Domestic/Distress)", "number": "181", "desc": "Support for women facing distress or violence"},
+    {"name": "Police Control Room", "number": "100", "desc": "Immediate law enforcement dispatch"},
+    {"name": "Ambulance / Medical Emergency", "number": "108", "desc": "Emergency medical response"}
+  ]
+}
